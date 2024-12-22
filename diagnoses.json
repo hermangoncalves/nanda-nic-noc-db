@@ -513,5 +513,432 @@
                 }
             ]
         }
+    },
+    {
+        "isAvailable": true,
+        "diagnosis": {
+            "nanda": {
+                "code": "00032",
+                "title": "Padrão respiratório ineficaz",
+                "definition": "Dificuldade para inspirar e/ou expirar ar suficiente para satisfazer as necessidades metabólicas.",
+                "domain": "Domínio 4 • Atividade/repouso",
+                "class": "Classe 4 • Respostas cardiovasculares/pulmonares",
+                "relatedFactors": [
+                    "Secreções excessivas nas vias aéreas",
+                    "Broncoespasmo",
+                    "Alterações musculares respiratórias"
+                ],
+                "definingCharacteristics": [
+                    "Dispneia",
+                    "Sibilos ao auscultar os pulmões",
+                    "Tosse ineficaz"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "3140",
+                    "title": "Terapia de oxigênio",
+                    "activities": [
+                        "Monitorar os sinais vitais, incluindo a saturação de oxigênio.",
+                        "Manter o paciente em posição semi-Fowler para melhorar a ventilação.",
+                        "Administrar oxigênio conforme prescrição médica."
+                    ]
+                },
+                {
+                    "code": "3350",
+                    "title": "Controle das vias aéreas",
+                    "activities": [
+                        "Realizar aspiração traqueal quando indicado.",
+                        "Incentivar técnicas de respiração profunda e exercícios respiratórios.",
+                        "Monitorar a eficácia da limpeza das vias aéreas."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "0410",
+                    "title": "Estado respiratório: ventilação",
+                    "indicators": [
+                        "Melhora nos padrões respiratórios.",
+                        "Ausência de roncos ou sibilos ao auscultar os pulmões.",
+                        "Saturação de oxigênio ≥ 95%."
+                    ]
+                },
+                {
+                    "code": "0702",
+                    "title": "Eficiência da tosse",
+                    "indicators": [
+                        "Capacidade de expectorar secreções.",
+                        "Ausência de desconforto respiratório."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": false,
+        "diagnosis": {
+            "nanda": {
+                "code": "00102",
+                "title": "Risco de integridade da pele prejudicada",
+                "definition": "Vulnerabilidade a lesão epidérmica ou dérmica.",
+                "domain": "Domínio 11 • Segurança/proteção",
+                "class": "Classe 2 • Lesões físicas",
+                "relatedFactors": [
+                    "Imobilidade",
+                    "Desnutrição",
+                    "Idade avançada"
+                ],
+                "definingCharacteristics": []
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "3590",
+                    "title": "Cuidados com a pele",
+                    "activities": [
+                        "Inspecionar a pele diariamente para sinais de lesões.",
+                        "Manter a pele limpa e seca.",
+                        "Usar produtos hidratantes para proteger a pele."
+                    ]
+                },
+                {
+                    "code": "3520",
+                    "title": "Prevenção de úlceras por pressão",
+                    "activities": [
+                        "Reposicionar o paciente a cada 2 horas.",
+                        "Usar colchões e almofadas especiais para reduzir a pressão."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "1101",
+                    "title": "Integridade da pele",
+                    "indicators": [
+                        "Ausência de lesões na pele.",
+                        "Elasticidade da pele preservada."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": false,
+        "diagnosis": {
+            "nanda": {
+                "code": "00078",
+                "title": "Déficit de autocuidado: banho",
+                "definition": "Dificuldade em realizar atividades de higiene pessoal.",
+                "domain": "Domínio 4 • Atividade/repouso",
+                "class": "Classe 5 • Autocuidados",
+                "relatedFactors": [
+                    "Fraqueza física",
+                    "Alterações cognitivas"
+                ],
+                "definingCharacteristics": [
+                    "Incapacidade de lavar partes do corpo",
+                    "Incapacidade de usar materiais de banho"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "1801",
+                    "title": "Assistência com o banho",
+                    "activities": [
+                        "Ajudar o paciente a entrar e sair do chuveiro.",
+                        "Prover materiais de banho de fácil acesso."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "0300",
+                    "title": "Capacidade de autocuidado",
+                    "indicators": [
+                        "Maior independência nas atividades de autocuidado.",
+                        "Redução da necessidade de assistência."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": true,
+        "diagnosis": {
+            "nanda": {
+                "code": "00206",
+                "title": "Dor aguda",
+                "definition": "Experiência sensorial desagradável de início súbito.",
+                "domain": "Domínio 12 • Conforto",
+                "class": "Classe 1 • Conforto físico",
+                "relatedFactors": [
+                    "Lesão física",
+                    "Procedimentos invasivos"
+                ],
+                "definingCharacteristics": [
+                    "Expressões faciais de dor",
+                    "Relato verbal de dor",
+                    "Alterações no padrão respiratório"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "1410",
+                    "title": "Controle da dor",
+                    "activities": [
+                        "Avaliar o nível de dor frequentemente.",
+                        "Administrar analgésicos conforme prescrição médica."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "1605",
+                    "title": "Controle da dor",
+                    "indicators": [
+                        "Redução na intensidade da dor relatada.",
+                        "Maior conforto físico."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": false,
+        "diagnosis": {
+            "nanda": {
+                "code": "00155",
+                "title": "Fadiga",
+                "definition": "Sensação avassaladora de exaustão.",
+                "domain": "Domínio 4 • Atividade/repouso",
+                "class": "Classe 7 • Respostas psicofisiológicas",
+                "relatedFactors": [
+                    "Estresse crônico",
+                    "Doenças crônicas"
+                ],
+                "definingCharacteristics": [
+                    "Dificuldade em realizar tarefas diárias",
+                    "Relato verbal de cansaço extremo"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "0180",
+                    "title": "Encorajamento ao descanso",
+                    "activities": [
+                        "Estabelecer períodos de descanso durante o dia.",
+                        "Ensinar técnicas de relaxamento ao paciente."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "0004",
+                    "title": "Tolerância à atividade",
+                    "indicators": [
+                        "Aumento da energia percebida.",
+                        "Redução da fadiga relatada."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": true,
+        "diagnosis": {
+            "nanda": {
+                "code": "00085",
+                "title": "Mobilidade física prejudicada",
+                "definition": "Limitação no movimento físico independente.",
+                "domain": "Domínio 4 • Atividade/repouso",
+                "class": "Classe 2 • Movimento/controle físico",
+                "relatedFactors": [
+                    "Fraqueza muscular",
+                    "Dor",
+                    "Alteração neuromuscular"
+                ],
+                "definingCharacteristics": [
+                    "Dificuldade em mudar de posição",
+                    "Diminuição da força muscular"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "0220",
+                    "title": "Promoção da mobilidade",
+                    "activities": [
+                        "Auxiliar na mobilização do paciente.",
+                        "Ensinar exercícios de amplitude de movimento."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "0208",
+                    "title": "Mobilidade física",
+                    "indicators": [
+                        "Melhora na capacidade de movimentação.",
+                        "Maior independência na mobilidade."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": false,
+        "diagnosis": {
+            "nanda": {
+                "code": "00146",
+                "title": "Ansiedade",
+                "definition": "Sensação vaga e desconfortável de apreensão.",
+                "domain": "Domínio 9 • Enfrentamento/tolerância ao estresse",
+                "class": "Classe 2 • Respostas psicofisiológicas",
+                "relatedFactors": [
+                    "Estresse",
+                    "Mudanças no ambiente"
+                ],
+                "definingCharacteristics": [
+                    "Nervosismo",
+                    "Preocupação excessiva",
+                    "Tensão muscular"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "5820",
+                    "title": "Redução da ansiedade",
+                    "activities": [
+                        "Oferecer apoio emocional ao paciente.",
+                        "Ensinar técnicas de relaxamento."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "1304",
+                    "title": "Respostas emocionais: ansiedade",
+                    "indicators": [
+                        "Redução da tensão emocional.",
+                        "Menos preocupações com eventos futuros."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": false,
+        "diagnosis": {
+            "nanda": {
+                "code": "00053",
+                "title": "Padrão de sono prejudicado",
+                "definition": "Dificuldade em obter ou manter um sono adequado.",
+                "domain": "Domínio 9 • Enfrentamento/tolerância ao estresse",
+                "class": "Classe 1 • Conforto físico",
+                "relatedFactors": [
+                    "Dor",
+                    "Ambiente inadequado"
+                ],
+                "definingCharacteristics": [
+                    "Dificuldade para adormecer",
+                    "Despertares frequentes"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "1850",
+                    "title": "Higiene do sono",
+                    "activities": [
+                        "Criar um ambiente tranquilo para o paciente.",
+                        "Evitar alimentos ou bebidas estimulantes antes de dormir."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "1870",
+                    "title": "Padrão de sono",
+                    "indicators": [
+                        "Duração adequada de sono.",
+                        "Despertar sentindo-se descansado."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "isAvailable": true,
+        "diagnosis": {
+            "nanda": {
+                "code": "00152",
+                "title": "Insegurança",
+                "definition": "Preocupação com a própria proteção e com os outros, diante de uma situação de risco.",
+                "domain": "Domínio 9 • Enfrentamento/tolerância ao estresse",
+                "class": "Classe 2 • Respostas psicossociais",
+                "relatedFactors": [
+                    "Perda de autonomia",
+                    "Fatores ambientais"
+                ],
+                "definingCharacteristics": [
+                    "Cuidado excessivo com os outros",
+                    "Preocupação com a segurança"
+                ]
+            }
+        },
+        "interventions": {
+            "nic": [
+                {
+                    "code": "5220",
+                    "title": "Apoio emocional",
+                    "activities": [
+                        "Oferecer apoio para expressar sentimentos de insegurança.",
+                        "Encorajar o paciente a participar no planejamento de cuidados."
+                    ]
+                }
+            ]
+        },
+        "outcomes": {
+            "noc": [
+                {
+                    "code": "1303",
+                    "title": "Respostas emocionais: segurança",
+                    "indicators": [
+                        "Maior sensação de segurança.",
+                        "Redução da preocupação excessiva com a segurança."
+                    ]
+                }
+            ]
+        }
     }
 ]
