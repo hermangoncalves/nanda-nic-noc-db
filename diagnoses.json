@@ -65,7 +65,7 @@
         }
     },
     {
-        "isAvailable": false,
+        "isAvailable": true,
         "diagnosis": {
             "nanda": {
                 "code": "00102",
@@ -116,7 +116,7 @@
         }
     },
     {
-        "isAvailable": false,
+        "isAvailable": true,
         "diagnosis": {
             "nanda": {
                 "code": "00078",
@@ -205,7 +205,7 @@
         }
     },
     {
-        "isAvailable": false,
+        "isAvailable": true,
         "diagnosis": {
             "nanda": {
                 "code": "00155",
@@ -294,7 +294,7 @@
         }
     },
     {
-        "isAvailable": false,
+        "isAvailable": true,
         "diagnosis": {
             "nanda": {
                 "code": "00146",
@@ -383,7 +383,7 @@
         }
     },
     {
-        "isAvailable": false,
+        "isAvailable": true,
         "diagnosis": {
             "nanda": {
                 "code": "00092",
@@ -471,7 +471,7 @@
         }
     },
     {
-        "isAvailable": false,
+        "isAvailable": true,
         "diagnosis": {
             "nanda": {
                 "code": "00243",
